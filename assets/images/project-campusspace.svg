@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgCampus" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1117"/>
+      <stop offset="50%" stop-color="#181318"/>
+      <stop offset="100%" stop-color="#2a0a0f"/>
+    </linearGradient>
+    <linearGradient id="redPill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#BC0202"/>
+      <stop offset="100%" stop-color="#FF1a1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#bgCampus)"/>
+
+  <!-- Portal mock interface -->
+  <g transform="translate(60, 48)">
+    <rect width="480" height="264" rx="14" fill="#0d0d12" stroke="#381b1f" stroke-width="1.5"/>
+    <rect width="480" height="40" rx="14" fill="#181822"/>
+    <circle cx="25" cy="20" r="4.5" fill="#ff5f56"/>
+    <circle cx="40" cy="20" r="4.5" fill="#ffbd2e"/>
+    <circle cx="55" cy="20" r="4.5" fill="#27c93f"/>
+    <text x="80" y="24" fill="#a4a4b8" font-family="sans-serif" font-size="11" font-weight="500">CampusSpace Hub • Reservation &amp; Study Slot System</text>
+
+    <!-- Calendar slots mock -->
+    <g transform="translate(25, 60)">
+      <!-- Day headers -->
+      <rect x="0" y="0" width="95" height="45" rx="6" fill="#161622" stroke="#261b20"/>
+      <text x="15" y="22" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="600">Lab Alpha</text>
+      <text x="15" y="36" fill="#27c93f" font-family="sans-serif" font-size="9">4 Available</text>
+
+      <rect x="110" y="0" width="95" height="45" rx="6" fill="#161622" stroke="#261b20"/>
+      <text x="125" y="22" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="600">Study Pod B</text>
+      <text x="125" y="36" fill="#FF1a1a" font-family="sans-serif" font-size="9">Booked</text>
+
+      <rect x="220" y="0" width="95" height="45" rx="6" fill="#161622" stroke="#261b20"/>
+      <text x="235" y="22" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="600">Media Studio</text>
+      <text x="235" y="36" fill="#27c93f" font-family="sans-serif" font-size="9">2 Available</text>
+
+      <rect x="330" y="0" width="100" height="45" rx="6" fill="#161622" stroke="#261b20"/>
+      <text x="345" y="22" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="600">Collab Zone</text>
+      <text x="345" y="36" fill="#ffbd2e" font-family="sans-serif" font-size="9">Limited</text>
+
+      <!-- Reservation time blocks -->
+      <rect x="0" y="60" width="430" height="120" rx="8" fill="#12121a" stroke="#281a1f"/>
+      <rect x="15" y="75" width="120" height="30" rx="6" fill="url(#redPill)"/>
+      <text x="26" y="94" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="600">09:00 - 11:30 AM (Reserved)</text>
+
+      <rect x="145" y="75" width="100" height="30" rx="6" fill="#222230"/>
+      <text x="158" y="94" fill="#88889a" font-family="sans-serif" font-size="10">11:30 - 01:00 PM</text>
+
+      <rect x="255" y="75" width="160" height="30" rx="6" fill="#222230"/>
+      <text x="268" y="94" fill="#88889a" font-family="sans-serif" font-size="10">01:00 - 04:00 PM (Open)</text>
+
+      <rect x="15" y="115" width="400" height="4" rx="2" fill="#28283a"/>
+      <text x="15" y="145" fill="#a0a0b2" font-family="sans-serif" font-size="10">PostgreSQL Relational DB • Transaction Locks Active</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgAR" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1117"/>
+      <stop offset="50%" stop-color="#141c18"/>
+      <stop offset="100%" stop-color="#2a0a0f"/>
+    </linearGradient>
+    <linearGradient id="redPill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#BC0202"/>
+      <stop offset="100%" stop-color="#FF1a1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#bgAR)"/>
+
+  <!-- AR Scanner Mock Interface -->
+  <g transform="translate(60, 44)">
+    <rect width="480" height="272" rx="14" fill="#0d0d12" stroke="#381b1f" stroke-width="1.5"/>
+    <rect width="480" height="40" rx="14" fill="#181822"/>
+    <circle cx="25" cy="20" r="4.5" fill="#ff5f56"/>
+    <circle cx="40" cy="20" r="4.5" fill="#ffbd2e"/>
+    <circle cx="55" cy="20" r="4.5" fill="#27c93f"/>
+    <text x="80" y="24" fill="#a4a4b8" font-family="sans-serif" font-size="11" font-weight="500">Lingkungin • Unity AR Waste Education App</text>
+
+    <!-- AR Camera Viewfinder -->
+    <g transform="translate(25, 56)">
+      <rect x="0" y="0" width="210" height="190" rx="10" fill="#13181b" stroke="#27c93f" stroke-width="1.2" stroke-dasharray="6 4"/>
+      <!-- Corner brackets -->
+      <path d="M 18 30 L 18 18 L 30 18" fill="none" stroke="#27c93f" stroke-width="2.5"/>
+      <path d="M 192 30 L 192 18 L 180 18" fill="none" stroke="#27c93f" stroke-width="2.5"/>
+      <path d="M 18 160 L 18 172 L 30 172" fill="none" stroke="#27c93f" stroke-width="2.5"/>
+      <path d="M 192 160 L 192 172 L 180 172" fill="none" stroke="#27c93f" stroke-width="2.5"/>
+
+      <!-- 3D AR Object Bounding Box -->
+      <circle cx="105" cy="88" r="34" fill="#27c93f" opacity="0.15"/>
+      <rect x="85" y="64" width="40" height="48" rx="6" fill="none" stroke="#27c93f" stroke-width="2"/>
+      <text x="52" y="142" fill="#27c93f" font-family="sans-serif" font-size="11" font-weight="700">AR Target Detected</text>
+      <text x="48" y="158" fill="#90a098" font-family="sans-serif" font-size="9">ARCore / AR Foundation</text>
+
+      <!-- Info Telemetry Panel -->
+      <rect x="228" y="0" width="202" height="190" rx="10" fill="#14141d" stroke="#281a1f"/>
+      <rect x="244" y="18" width="110" height="22" rx="5" fill="url(#redPill)"/>
+      <text x="254" y="33" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="600">Inorganic Waste</text>
+
+      <text x="244" y="62" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700">Plastic Bottle (PET)</text>
+      <text x="244" y="82" fill="#9a9ab0" font-family="sans-serif" font-size="10">Decomposition: ~450 Years</text>
+      <text x="244" y="100" fill="#27c93f" font-family="sans-serif" font-size="10" font-weight="600">Status: 100% Recyclable</text>
+
+      <rect x="244" y="118" width="170" height="54" rx="6" fill="#1c1c28"/>
+      <text x="254" y="136" fill="#d0d0e0" font-family="sans-serif" font-size="9" font-weight="600">Unity C# &amp; Firebase Sync</text>
+      <text x="254" y="152" fill="#88889a" font-family="sans-serif" font-size="9">Interactive 3D Waste Classification</text>
+    </g>
+  </g>
+</svg>
+

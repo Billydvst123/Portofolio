@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgDebouquets" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141418"/>
+      <stop offset="50%" stop-color="#1f1216"/>
+      <stop offset="100%" stop-color="#2d0810"/>
+    </linearGradient>
+    <linearGradient id="redGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#BC0202"/>
+      <stop offset="100%" stop-color="#FF2a4b"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <rect width="600" height="360" fill="url(#bgDebouquets)"/>
+
+  <!-- Subtle decorative grid -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="60" x2="600" y2="60"/>
+    <line x1="0" y1="120" x2="600" y2="120"/>
+    <line x1="0" y1="180" x2="600" y2="180"/>
+    <line x1="0" y1="240" x2="600" y2="240"/>
+    <line x1="0" y1="300" x2="600" y2="300"/>
+    <line x1="100" y1="0" x2="100" y2="360"/>
+    <line x1="200" y1="0" x2="200" y2="360"/>
+    <line x1="300" y1="0" x2="300" y2="360"/>
+    <line x1="400" y1="0" x2="400" y2="360"/>
+    <line x1="500" y1="0" x2="500" y2="360"/>
+  </g>
+
+  <!-- Ambient light -->
+  <circle cx="480" cy="80" r="140" fill="#BC0202" opacity="0.18" filter="blur(40px)"/>
+
+  <!-- Mockup UI Card (Debouquets Laravel Storefront) -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="50" width="460" height="260" rx="14" fill="#0d0d11" stroke="#381820" stroke-width="1.5"/>
+    <!-- Browser Header -->
+    <rect x="70" y="50" width="460" height="40" rx="14" fill="#181820"/>
+    <circle cx="95" cy="70" r="5" fill="#ff5f56"/>
+    <circle cx="112" cy="70" r="5" fill="#ffbd2e"/>
+    <circle cx="129" cy="70" r="5" fill="#27c93f"/>
+    <text x="155" y="74" fill="#a0a0b0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">Debouquets • Laravel Bouquet Ordering Web</text>
+
+    <!-- Hero Banner inside mockup -->
+    <rect x="90" y="104" width="420" height="68" rx="8" fill="#1b1419" stroke="#3a1c24" stroke-width="1"/>
+    <text x="108" y="130" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="700">Fresh Handcrafted Flower Bouquets</text>
+    <text x="108" y="148" fill="#a599a0" font-family="sans-serif" font-size="10">Custom floral arrangements &amp; seamless online delivery</text>
+    <rect x="405" y="122" width="88" height="28" rx="6" fill="url(#redGlow)"/>
+    <text x="421" y="140" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="600">Order Now</text>
+
+    <!-- Product Catalog Cards -->
+    <rect x="90" y="186" width="132" height="106" rx="8" fill="#16161f" stroke="#2a1d22" stroke-width="1"/>
+    <circle cx="156" cy="218" r="18" fill="#BC0202" opacity="0.25"/>
+    <circle cx="156" cy="218" r="9" fill="#FF2a4b"/>
+    <text x="104" y="254" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="600">Crimson Rose</text>
+    <text x="104" y="270" fill="#FF2a4b" font-family="sans-serif" font-size="10" font-weight="700">Rp 185.000</text>
+
+    <rect x="234" y="186" width="132" height="106" rx="8" fill="#16161f" stroke="#2a1d22" stroke-width="1"/>
+    <circle cx="300" cy="218" r="18" fill="#ffbd2e" opacity="0.2"/>
+    <circle cx="300" cy="218" r="9" fill="#ffbd2e"/>
+    <text x="248" y="254" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="600">pastel Bloom</text>
+    <text x="248" y="270" fill="#FF2a4b" font-family="sans-serif" font-size="10" font-weight="700">Rp 210.000</text>
+
+    <rect x="378" y="186" width="132" height="106" rx="8" fill="#16161f" stroke="#2a1d22" stroke-width="1"/>
+    <circle cx="444" cy="218" r="18" fill="#27c93f" opacity="0.2"/>
+    <circle cx="444" cy="218" r="9" fill="#27c93f"/>
+    <text x="392" y="254" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="600">Graduation Special</text>
+    <text x="392" y="270" fill="#FF2a4b" font-family="sans-serif" font-size="10" font-weight="700">Rp 250.000</text>
+  </g>
+</svg>
+
