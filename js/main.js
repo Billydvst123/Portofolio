@@ -536,7 +536,7 @@ function openProjectModal(proj) {
 
   body.innerHTML = `
     <div style="display: flex; flex-direction: column; gap: 1.1rem;">
-      <img src="${escapeHTML(proj.image)}" alt="${escapeHTML(proj.title)}" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 10px; border: 1px solid var(--border-subtle);" />
+      <img src="${escapeHTML(proj.image)}" alt="${escapeHTML(proj.title)}" style="width: 100%; max-height: 440px; object-fit: contain; background: #0a0a0e; border-radius: 10px; border: 1px solid var(--border-subtle);" />
       <div>
         ${proj.subtitle ? `<div class="project-subtitle" style="font-size: 0.95rem;">${escapeHTML(proj.subtitle)}</div>` : ''}
         <div class="project-role" style="margin-top: 0.25rem;">${escapeHTML(proj.role)}</div>

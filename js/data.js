@@ -80,7 +80,7 @@ const portfolioData = {
       ],
       demoUrl: "https://youtu.be/j-rX8YLNG2Y?si=ndWL2xJ5z05KkDjR",
       githubUrl: "https://github.com/Arthursakaa/Web_Debouquets",
-      image: "assets/images/project-debouquets.svg",
+      image: "assets/images/project-debouquets.jpg",
       featured: true
     },
     {
@@ -99,7 +99,7 @@ const portfolioData = {
       ],
       demoUrl: "https://www.youtube.com/watch?v=Zc35n8_z4G8",
       githubUrl: "https://github.com/Billydvst123/FitnessVals",
-      image: "assets/images/project-fitnessvals.svg",
+      image: "assets/images/project-fitnessvals.jpg",
       featured: true
     },
     {
@@ -126,7 +126,7 @@ const portfolioData = {
       title: "TranslatorsAI (Indonesia – Banjar)",
       subtitle: "Bidirectional Neural Machine Translation & OCR Web App",
       description: "An AI-powered bidirectional translator between Bahasa Indonesia and Bahasa Banjar built by fine-tuning a pre-trained mT5 Transformer model on 2,500 custom parallel sentence pairs, complete with Text-to-Speech and Image OCR scanning.",
-      role: "AI & Fullstack Web Developer",
+      role: "Dataset Collector & Fullstack Web Developer",
       category: "web",
       categoryLabel: "AI & Web Application",
       stack: ["React", "TypeScript", "Python", "FastAPI", "mT5 (Deep Learning)", "Tesseract OCR"],
@@ -137,7 +137,7 @@ const portfolioData = {
       ],
       demoUrl: "https://aitranslators.netlify.app/",
       githubUrl: "https://github.com/NobertMax6/TranslatorsAI",
-      image: "assets/images/project-translatorsai.svg",
+      image: "assets/images/project-translatorsai.jpg",
       featured: true
     }
   ],
