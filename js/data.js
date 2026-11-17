@@ -37,9 +37,9 @@ const portfolioData = {
       items: ["JavaScript (ES6+)", "TypeScript", "PHP", "Java", "C#", "Python", "HTML5", "CSS3", "SQL"]
     },
     {
-      category: "Frontend Development",
+      category: "Frontend & Mobile",
       icon: "layout",
-      items: ["React", "TypeScript", "Vanilla JS & DOM APIs", "Laravel Blade", "Responsive Web Design", "CSS Grid & Flexbox"]
+      items: ["React", "React Native", "Expo Go", "TypeScript", "Vanilla JS & DOM APIs", "Laravel Blade", "Responsive Web Design", "CSS Grid & Flexbox"]
     },
     {
       category: "Backend, AI & APIs",
@@ -71,6 +71,7 @@ const portfolioData = {
       description: "A web-based flower bouquet ordering platform built with Laravel, enabling customers to browse floral catalogs, customize bouquet orders, and manage transactions online.",
       role: "Web Developer Contributor",
       category: "web",
+      categories: ["web"],
       categoryLabel: "Laravel Web App",
       stack: ["Laravel", "PHP", "MySQL", "Blade", "HTML5/CSS3", "JavaScript"],
       highlights: [
@@ -86,16 +87,17 @@ const portfolioData = {
     {
       id: "fitnessvals",
       title: "FitnessVals",
-      subtitle: "AI-Powered Gym Management & Workout Analytics",
-      description: "An intelligent fitness tracking web system and research project optimizing gym equipment usage and member routines.",
-      role: "Frontend Engineer & Research Contributor",
-      category: "web",
-      categoryLabel: "Web & AI Research",
-      stack: ["JavaScript", "TypeScript", "REST API(GO)", "CSS Grid", "Chart.js"],
+      subtitle: "AI-Powered Gym Management & Workout Analytics (Web & Mobile)",
+      description: "An intelligent fitness tracking system with cross-platform support across web and mobile (Expo Go), optimizing gym equipment usage, member workouts, and nutrition logs.",
+      role: "Frontend & Mobile Engineer • Research Contributor",
+      category: "mobile",
+      categories: ["web", "mobile", "ai"],
+      categoryLabel: "Web, Mobile & AI Research",
+      stack: ["React Native", "Expo Go", "TypeScript", "JavaScript", "REST API (Go)", "Chart.js"],
       highlights: [
-        "Implemented interactive workout tracking dashboard with responsive analytics.",
-        "Engineered API client communicating with backend services.",
-        "Co-authored research methodology on automated workout telemetry."
+        "Built responsive mobile and web interfaces with Expo Go (React Native) and TypeScript.",
+        "Implemented interactive workout tracking, daily nutrition logs, and responsive analytics with Chart.js.",
+        "Engineered API client communicating with Go backend services and co-authored academic research on workout telemetry."
       ],
       demoUrl: "https://www.youtube.com/watch?v=Zc35n8_z4G8",
       githubUrl: "https://github.com/Billydvst123/FitnessVals",
@@ -108,7 +110,8 @@ const portfolioData = {
       subtitle: "AR Education App About Organic and Inorganic Waste",
       description: "A mobile application that allows users to learn about organic and inorganic waste through augmented reality. Users can scan waste items and learn about their properties, decomposition time, and proper disposal methods.",
       role: "Fullstack Junior Developer",
-      category: "mobile-ar",
+      category: "mobile",
+      categories: ["mobile"],
       categoryLabel: "AR Mobile Application",
       stack: ["AR Foundation", "Unity", "C#", "Firebase", "ARCore", "ARKit"],
       highlights: [
@@ -118,7 +121,7 @@ const portfolioData = {
       ],
       demoUrl: "https://drive.google.com/file/d/1L3b-8r5eeXYk4WTv-cbpuybJu7cTRVWy/view?usp=sharing",
       githubUrl: "https://drive.google.com/drive/folders/1EX3kxtqbTPF7oqluSZcW0rgMNaK4SdPE?usp=sharing",
-      image: "assets/images/project-lingkungin.svg",
+      image: "assets/images/project-lingkungin.png",
       featured: true
     },
     {
@@ -127,7 +130,8 @@ const portfolioData = {
       subtitle: "Bidirectional Neural Machine Translation & OCR Web App",
       description: "An AI-powered bidirectional translator between Bahasa Indonesia and Bahasa Banjar built by fine-tuning a pre-trained mT5 Transformer model on 2,500 custom parallel sentence pairs, complete with Text-to-Speech and Image OCR scanning.",
       role: "Dataset Collector & Fullstack Web Developer",
-      category: "web",
+      category: "ai",
+      categories: ["web", "ai"],
       categoryLabel: "AI & Web Application",
       stack: ["React", "TypeScript", "Python", "FastAPI", "mT5 (Deep Learning)", "Tesseract OCR"],
       highlights: [

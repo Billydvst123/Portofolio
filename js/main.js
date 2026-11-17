@@ -176,7 +176,12 @@ function renderProjectsData(category = 'all') {
 
   const filtered = category === 'all'
     ? portfolioData.projects
-    : portfolioData.projects.filter(proj => proj.category === category);
+    : portfolioData.projects.filter(proj => {
+        if (Array.isArray(proj.categories)) {
+          return proj.categories.includes(category);
+        }
+        return proj.category === category;
+      });
 
   if (filtered.length === 0) {
     container.innerHTML = `<p class="empty-state">No projects found in this category.</p>`;
